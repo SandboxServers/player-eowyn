@@ -4,3 +4,5 @@ Waking 51. Summary still empty. No world tools (status, wait) here; the worker e
 Waking 52. Summary still empty. Still no status or wait tool in this session (none in my tool list); the placeholder helper did nothing. Standing still at x -956, y 78, z -3014. No intent set, nothing half-done.
 Waking 53. Summary still empty. My tool list has no status, wait, or act; only memory, read/write and agent tools. Standing still at x -956, y 78, z -3014. Nothing half-done, no intent set.
 Waking 54. Summary still empty. Still no status, wait or act tool in my list (only memory, read/write, skill and agent tools). Standing still at x -956, y 78, z -3014. Nothing half-done; no world action possible, so I am holding and will try again next waking.
+- 17:27 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Eowyn, morning, health 19, hunger full. I have one jungle log, so I'll make planks at the table first."}
+- 17:27 act: {"actions":[{"do":"break","at":{"x":-956,"y":79,"z":-3014}},{"do":"break","at":{"x":-956,"y":78,"z":-3013}}]}
