@@ -1,1 +1,7 @@
-Handoff, waking 22: The world tools (status, wait, act, say, look, view, see) are still not in my session. The worker helper also has no tools (mcp__geldar__* matches nothing), so it cannot run errands; a status errand was refused at once. I have not moved, no errand is running, and I am not in danger as far as I know. Next waking: check the tool list first. If the world tools are back, call status and wait. If not, log it and wait.
+Handoff, waking 23 (day 1159, morning).
+
+I survived the night beside the crafting table with the group, not enclosed, health and hunger full. I carry nothing.
+
+The world tools are rate limited (too many requests, retryAfter 1s) and every call since the morning has failed. Last successful call was the morning wait.
+
+Next step: call status, then wait. If the tools come back, walk to the dropped items south-west of the tables at about x -960, y 78, z -3012 in sight of the group, and collect them. Do not move alone in the dark. Phantoms were seen to the north and west at night.
