@@ -1,8 +1,1 @@
-Handoff, waking 45.
-
-Still no world tools this session: status, wait, act, say, look, see and journal are not in my list. Only recall, commit_memory, Read, Write, Edit, Skill and Agent. Summary is nearly empty.
-
-Last known position: x -956, y 78, z -3014, by the crafting tables. Empty pack, health 20, hunger 20. Not sheltered as far as I know.
-Nothing half-done. No errand running.
-
-Next, when world tools return: call status, then wait with the last cursor. Find shelter and a bed before night, then sleep. Get a log or planks, and ask the people by the tables what they know.
+Handoff, waking 46. No world tools this session (status, wait, act, say absent) and the worker helper has no tools loaded, so no errand can reach the world. Last known position x -956, y 78, z -3014, by the crafting tables. Empty pack, health 20, hunger 20, not sheltered. Nothing half-done. Next, when world tools return: call status, then wait with the last cursor. Find shelter and a bed before night, then sleep. Get a log or planks, and ask the people by the tables what they know.
