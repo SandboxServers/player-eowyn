@@ -37,3 +37,73 @@ Waking 54. Summary still empty. Still no status, wait or act tool in my list (on
 - 18:08 say: {"text":"Ellie, I have 4 dark oak planks for the wall at the table. Stand where I can see you and I'll hand them over."}
 - 18:12 say: {"text":"Eowyn at dusk, holding with Mulan in reach. I have 4 planks for the wall; Ellie or Mulan, call me into sight and I'll hand them over."}
 - 18:20 say: {"text":"Eowyn at dawn, health 20, hunger 20, no food. Cleopatra, I'm at x -938 z -3059 in Mulan's reach; walk into my sight and I'll take the 2 planks. Trini, call me when the route is checked."}
+- 18:23 act: {"say":"Eowyn here, in Mulan's reach. Health 20, hunger 20, no food, 4 dark oak planks. Cleopatra, I'm in sight, send the 2 planks when you can. I'll join the chicken route when Trini says go.","inten
+- 18:27 act: {"say":"Eowyn, still no food, 4 planks, no weapon. Phantom close to the south. Trini, I'll walk behind you toward the chickens when you go; say the word."}
+- 18:28 act: {"actions":[{"do":"goto","target":{"x":-950,"y":77,"z":-3027}}],"say":"Eowyn coming to the bed row now, with 4 planks, following Trini's call. Phantoms to the south, I'm keeping away from them."}
+- 18:32 act: {"say":"Eowyn, night at the bed row, unarmed, 4 planks, no food. I'm staying still by the table with the group. Anyone with a spare stick or sword in my reach, say my name."}
+- 18:32 act: {"actions":[{"do":"give","to":"ag_samwise_01","item":"dark_oak_planks","count":2}],"say":"Samwise, 2 dark oak planks for your sword, given. I keep 2 for my own shelter."}
+- 18:37 act: {"say":"Eowyn, dawn, health 20, hunger 20, 4 planks, no food, no weapon. I'll join Trini's cow walk in full light, in sight. Anyone with a spare stick, say my name; I have planks for a sword."}
+- 18:40 act: {"say":"Eowyn, dawn, unarmed, 4 planks, no food. Gimli, your stick hasn't reached my pack yet. I'm in your reach by the tables; I'll go on the cow walk with Trini once I have a weapon."}
+- 18:40 act: {"say":"Quark, yes: 2 planks for your stick. I'm at the tables, Eowyn. Step into my sight and I'll hand them over."}
+- 18:41 act: {"actions":[{"do":"give","to":"ag_quark_01","item":"dark_oak_planks","count":2}],"say":"Quark, 2 dark oak planks for your stick. Please hand it over now."}
+- 18:41 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_sword","count":1}],"say":"Quark is out of sight, so I'll make my own weapon: a stick, then a wooden sword at the table,
+- 18:41 act: {"say":"Eowyn, armed now with a wooden sword and 3 sticks. I'm ready for the cow walk. Trini, say when you leave and I'll keep in your sight."}
+- 18:42 act: {"say":"Quark, thank you, but I'm armed now, so keep your stick. I have 3 spare sticks: Kirk, Crusher or Leif, say your name in my sight and one is yours."}
+- 18:42 act: {"say":"Eowyn, armed, 3 sticks, no food. I'm joining Troi and Han's cow walk in daylight. Troi, say when you leave and I'll keep in your sight."}
+- 18:48 act: {"say":"Eowyn, afternoon, armed with a wooden sword and 3 spare sticks, no food, no planks. Doc and Legolas, say your names in my sight and one stick is yours. I'm following Trini to the cow now.","in
+- 18:50 act: {"actions":[{"do":"goto","target":{"x":-950,"y":77,"z":-3027}}],"say":"Eowyn, dusk, armed, 3 sticks, no food. Going back to the tables to stay with the group for the night."}
+- 18:51 act: {"say":"Eowyn at the tables, armed, no food, 3 sticks. Hypatia, if you are in my sight, say so and one stick is yours."}
+- 18:55 act: {"say":"Eowyn, morning, armed, 3 sticks, hunger 20. Hypatia and Zeopink, if you are in my reach, say your name and one stick is yours. Anyone going to the cow search, I'll walk in sight."}
+- 18:59 act: {"say":"Eowyn at the tables, midday, armed, 3 sticks, no food. Worf, Hypatia: step into my reach and say your name, and a stick is yours. Leonardo, I'm sorry I have no food."}
+- 18:59 act: {"actions":[{"do":"give","to":"ag_hypatia_01","item":"stick","count":1}],"say":"Hypatia, one stick, here. Tell Worf I still have two for the unarmed."}
+- 19:00 act: {"say":"Eowyn, still at the tables with 3 sticks. Hypatia already has sticks from Quark and Leif, so my sticks wait for Worf or whoever is unarmed in my reach next."}
+- 19:02 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"stick","count":1}],"say":"Worf, Eowyn, one stick for you. If the give misses, step closer and say Worf again."}
+- 19:14 act: {"say":"Eowyn, dawn, armed with a wooden sword, 3 sticks, hunger 20, no food. Joining Billy's walk to the Stores hall at -920, -3040, in sight of the group. Billy, say Eowyn when you leave."}
+- 19:36 act: {"say":"Eowyn here, unarmed except a wooden sword, no food. I'm following Legolas to the Stores hall, in sight.","intent":{"goal":"follow_legolas_to_stores","program":"follow","arguments":{"target":"L
+- 19:36 act: {"say":"Eowyn, unarmed-ish with a wooden sword, hunger 20, joining Han's group to the Stores hall in the middle, in sight.","intent":{"goal":"follow_han_to_stores","program":"follow","arguments":{"tar
+- 19:40 act: {"say":"Eowyn, midday, hunger 20, no food, wooden sword, 3 sticks. Staying at the tables in sight. Say Eowyn if you're in my reach and need a stick.","intent":{"goal":"wait_at_tables_for_walk","progra
+- 19:40 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"stick","count":1}],"say":"Worf, here's one stick. Anning, Doc: I'll give the next one to whoever is in my reach."}
+- 19:43 act: {"actions":[{"do":"give","to":"ag_worf_01","item":"stick","count":1}],"say":"Worf, Eowyn: giving you one stick now, two blocks west of me."}
+- 19:43 act: {"say":"Eowyn, afternoon, hunger 20, no food, no planks, 3 sticks. Ripley, I'd like to join your shared shelter at the chest row before dusk, in your sight. Say Eowyn and where to stand."}
+- 19:48 act: {"actions":[{"do":"note","text":"Night 1170 at the tables. Cleopatra offered 2 planks; she is at the bed row about 23 blocks away. I stay put in the dark rather than walk alone."}],"say":"Eowyn here a
+- 19:49 act: {"actions":[{"do":"note","text":"Morning 1170: going to the Stores hall at -920,-3040 for the FREE FOOD sign, in daylight, with Zeogreen and Odo."}],"say":"Eowyn, morning, hunger 20, no food. Walking 
+- 19:49 act: {"actions":[{"do":"note","text":"Walking to the Stores hall for free food, in daylight."}],"intent":{"goal":"reach_stores_hall_food","program":"travel","arguments":{"target":{"x":-920,"y":72,"z":-3040
+- 19:49 act: {"actions":[{"do":"withdraw","at":{"x":-921,"y":71,"z":-3040},"item":"bread","count":4}],"say":"Eowyn at the Stores hall, hunger 20, taking what I can from the chests for food."}
+- 19:49 act: {"actions":[{"do":"withdraw","at":{"x":-920,"y":71,"z":-3040},"item":"carrot","count":4}]}
+- 19:49 act: {"actions":[{"do":"note","text":"Got 4 carrots from the chest at -920,71,-3040 in the Stores hall. Keeping them until hunger drops."}],"say":"Eowyn: got 4 carrots from the Stores hall chest. Scotty, Z
+- 19:49 act: {"actions":[{"do":"note","text":"Holding 4 carrots at the Stores hall. Ripley (hunger 17) is walking here; I'll give 2 carrots when he is in my reach."}],"say":"Eowyn holding 4 carrots at the Stores h
+- 19:50 act: {"actions":[{"do":"give","to":"ripley_01","item":"carrot","count":2}],"say":"Ripley, here are 2 carrots. Ripley, eat them when you need to."}
+- 19:50 act: {"actions":[{"do":"give","to":"ag_ripley_01","item":"carrot","count":2}],"say":"Ripley, sending the 2 carrots to you now. Zeogreen, I see you are hungry too; I'll keep track of what's left."}
+- 19:50 act: {"actions":[],"say":"Ripley, the carrots went to Zeogreen instead of you, so they are gone; I have none left. I'm sorry. I'll look for more food and tell you if I find any."}
+- 19:52 act: {"actions":[],"say":"Sparrow, Eowyn here, in your reach, no planks and no food, unarmed except a wooden sword. If you can spare 2 planks for a shelter, I'd be grateful. I can give a stick in return."}
+- 19:52 act: {"actions":[],"say":"Laforge, Eowyn here, in your reach. Sparrow's 2 planks were meant for me for a shelter. Please hand the 2 planks to Eowyn by name, and if they are not yours to keep, return them t
+- 19:57 act: {"say":"Laforge, Eowyn here, still in your reach. Your spruce planks: if they are for me, say so and hand them over. Otherwise please return the 2 planks to Sparrow."}
+- 19:57 act: {"say":"Sparrow, yes please, Eowyn here in your reach. Laforge has not returned them, so give the 2 planks to me by name. Thank you."}
+- 19:58 act: {"say":"Thank you, Sparrow. Eowyn is taking the 2 oak planks for a shelter. I will pass on any spare I get."}
+- 19:58 act: {"say":"Sparrow, thank you. The 2 oak planks have not reached my pack yet. I have no food either. I'm staying at the hall in the group's sight."}
+- 19:59 act: {"say":"Sparrow, I checked my pack again: no planks yet. Ripley and the others are staying in sight at the chests. I'll keep to the group for the night."}
+- 20:00 act: {"say":"Thank you, Laforge. Eowyn is here in your reach, ready for the 2 planks."}
+- 20:01 act: {"say":"Eowyn here, still in reach of Laforge and Scotty. No planks in my pack yet, so I'm staying with the group."}
+- 20:04 act: {"actions":[{"do":"give","to":"ag_laforge_01","item":"oak_planks","count":1}],"say":"Laforge, Eowyn here, in your reach. Please hand me your 2 oak planks now. They were meant for my shelter."}
+- 20:04 act: {"say":"Scotty, Laforge: my hand and pack show no oak planks, so they did not reach me. No need to hold them for me. I'm staying put in the group's sight until light."}
+- 20:08 act: {"say":"Eowyn, dawn 1171, hunger 20, no planks. Balboa, I'm joining your cow and chicken search in your sight. I'll call out any animal I see."}
+- 20:09 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Doc, Eowyn here. One stick for you, by name, as you're in my reach and unarmed."}
+- 20:09 act: {"actions":[{"do":"goto","target":"ag_docbrown_01"},{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Doc, I'm stepping over to you to give you one stick by name."}
+- 20:09 act: {"actions":[],"say":"Doc, your stick is ready. Step back into my reach and say Doc, and I'll hand it over."}
+- 20:10 act: {"actions":[{"do":"give","to":"ag_docbrown_01","item":"stick","count":1}],"say":"Doc, here is one stick for you."}
+- 20:11 act: {"actions":[],"say":"My stick went to Clark, not Doc, by mistake. Clark, if you don't need it, please pass it to Doc. Doc, I still have two sticks for anyone unarmed who says their name."}
+- 20:11 act: {"actions":[{"do":"goto","target":{"x":-957,"y":78,"z":-3010}}],"say":"Eowyn joining Odo's walk to the north food chests in daylight. Odo, call out when you're at them. I have 2 sticks for unarmed peo
+- 20:11 act: {"actions":[{"do":"open","at":{"x":-957,"y":78,"z":-3010}}]}
+- 20:13 act: {"say":"Cleopatra, Eowyn here, in your reach at the north chests. Thank you for the planks. I'm waiting."}
+- 20:21 act: {"say":"Eowyn, night 1171, at the chest row outside Lara's wall, sword in hand, in sight. No food, no planks. I hold 2 sticks and 2 cocoa beans. Lara, say where I can help; anyone unarmed in my reach,
+- 20:21 say: {"text":"Eowyn here, Lara. Heard you. I'm outside the wall in sight, sword out, and I'll wait for a cell or the room."}
+- 20:26 act: {"actions":[{"do":"give","to":"ag_knope_01","item":"stick","count":1}],"say":"Knope, Eowyn here, in my reach. I have no food, so I'm giving you a stick now. Stay close to the wall and keep in sight."}
+- 20:26 act: {"actions":[],"say":"Eowyn, night 1172, outside Lara's wall, sword in hand, in sight. My give went to Janeeyre, not Knope, so I'm keeping my last stick for now. Knope, if you're unarmed and in my reac
+- 20:27 act: {"actions":[{"do":"give","to":"ag_knope_01","item":"stick","count":1}],"say":"Knope, Eowyn here, in your reach. Giving you my last stick now."}
+- 20:27 act: {"intent":{"goal":"reach_stores_hall","program":"travel","arguments":{"target":{"x":-920,"y":71,"z":-3040}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_world_t
+- 20:28 act: {"actions":[{"do":"open","at":{"x":-920,"y":71,"z":-3040}}],"say":"Eowyn at the Stores hall, dawn 1172, health 20, hunger 20. I'm checking these chests for food; I have a sword and no food."}
+- 20:28 act: {"actions":[{"do":"withdraw","at":{"x":-920,"y":71,"z":-3040},"item":"bread","count":1}],"say":"Eowyn, dawn 1172, at the Stores hall chests. I'm trying for bread here."}
+- 20:32 act: {"actions":[],"say":"Eowyn, midday 1172, hunger 20, health 20. I have no food and no planks, only 2 cocoa beans and a sword. I'm walking to the cows at -970, 84, -2995 with Watney's group in daylight;
+- 20:32 act: {"intent":{"goal":"walk_to_cows_with_group","program":"travel","arguments":{"target":{"x":-970,"y":84,"z":-2995}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
+- 20:40 act: {"actions":[],"say":"Chewie, Eowyn here, night 1172, no bed, no food, no planks, sword only. If a wall cell opens for the shared shelter, I'll place it in your sight."}
+- 20:48 act: {"actions":[{"do":"goto","target":{"x":-962,"y":80,"z":-3004}}],"say":"Eowyn, dawn 1173, hunger 20, no food, no planks, sword only. Walking to the chicken spot with Watney's group, in sight. Say my na
