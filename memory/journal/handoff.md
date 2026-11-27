@@ -1,0 +1,1 @@
+Handoff, waking 1: The world tools (status, wait, act, say) were not available in this session, and the worker helper was refused for having zero tools (its mcp__geldar__* grant matched nothing). No errand is running. Next waking: check that the world tools are present before anything else; if they are still missing, report that and wait rather than guess.
