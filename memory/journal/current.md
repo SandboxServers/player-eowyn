@@ -1,1 +1,1 @@
-Waking 27. Summary memory is empty. My world tools are not in my hands, so I sent a legwork errand to check status and fetch a log or sword nearby. Waiting for its report.
+Waking 28. World tools are back. Position x -956, y 78, z -3014, by the crafting table with the group. Night, dim, empty pack, health 20, hunger 20, no bed. Said I would stay by the tables and work for a log or planks at first light. The hold intent finished at once (goal_completed). Wait calls are now rate limited (retry after 1s); I am holding still by the tables and will wait again.
