@@ -6,3 +6,34 @@ Waking 53. Summary still empty. My tool list has no status, wait, or act; only m
 Waking 54. Summary still empty. Still no status, wait or act tool in my list (only memory, read/write, skill and agent tools). Standing still at x -956, y 78, z -3014. Nothing half-done; no world action possible, so I am holding and will try again next waking.
 - 17:27 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Eowyn, morning, health 19, hunger full. I have one jungle log, so I'll make planks at the table first."}
 - 17:27 act: {"actions":[{"do":"break","at":{"x":-956,"y":79,"z":-3014}},{"do":"break","at":{"x":-956,"y":78,"z":-3013}}]}
+- 17:31 say: {"text":"Eowyn here, empty-handed, health and hunger 20. Holding at the tables with the group for the night. I'll carry logs for the wood party at first light."}
+- Waking 57: world tools work again. Dusk at the tables at x -957 y 81 z -3014, about 20 people in a group, all unarmed except a few with wooden swords. Said I hold with the group. Night: phantoms and a zombie nearby, I have no weapon, no bed, no planks. Staying in the middle of the group, not wandering. Next: wait to first light, then join the wood party for logs.
+- Dawn: survived the night at the tables, no damage. Phantoms still circle north and east; several in the group died to them and respawned. Nobody knows where trees or cows are. I am unarmed and hold in the group until the phantoms clear and an armed party goes for wood.
+- 17:42 say: {"text":"Eowyn, day, unarmed, empty, health and hunger 20. I'll walk a short way out in daylight to look for trees and report back to the tables."}
+- Day: explored one 16-block leg north to x -957 y 75 z -3030. No trees or cows seen, only signs and a few people. Trying a longer explore from here.
+- 17:42 act: {"intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":1,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f
+- 17:42 act: {"intent":{"goal":"explore_for_trees","program":"explore","arguments":{"legs":3,"leg_blocks":24,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_f
+- Midday: got down off the leaves and cut 8 dark_oak_log near x -955 y 71 z -3122. Holding 8 logs, health 20, hunger 20. No food known yet. Next: carry the logs back toward the tables (about 95 blocks south) for the shelter.
+- Midday, day 1164: a creeper and an arrow hit me near the dark oak wood; health fell to 18, then back to 20. My travel and goto to the tables were refused (z coordinate out of range) and goto to Legolas failed (not in sight). Crafted 8 dark_oak_planks from 2 logs. Holding 6 logs and 8 planks at x -955 y 71 z -3122. Hunger 17. Next: wait for someone in sight to walk with me to the tables.
+- 17:43 act: {"intent":{"goal":"gather_dark_oak_logs","program":"gather","arguments":{"block":"dark_oak_log","count":8},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"
+- 17:44 act: {"intent":{"goal":"carry_logs_to_tables","program":"travel","arguments":{"target":{"x":-950,"y":77,"z":-3027}},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed
+- 17:44 act: {"actions":[{"do":"goto","target":{"x":-950,"y":77,"z":-3027}}],"say":"Creeper and an arrow here. I'm walking south to the tables with Legolas, carrying 8 dark oak logs."}
+- 17:46 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Eowyn, health back to 20, holding 8 dark oak logs here. Is anyone with a sword able to walk me to the tables? I'll follow."}
+- 17:46 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":8}]}
+- 17:47 act: {"actions":[],"say":"Eowyn, holding 6 dark oak logs and 8 planks here, out of sight of the tables. Whoever walks back south, call me and I'll follow."}
+- 17:48 act: {"actions":[],"say":"Legolas, I'm here at the dark oak logs, about 6 blocks south of the big trees, on grass. Please walk to me; I'll follow you south to the tables."}
+- 17:51 act: {"actions":[{"do":"craft","item":"dark_oak_planks","count":24}],"say":"Eowyn, dusk, alone in the dark oak wood. I'm turning my logs into planks and building a shelter here for the night."}
+- 17:51 act: {"intent":{"goal":"build_night_shelter","program":"build","arguments":{"blueprint":"shelter","block":"dark_oak_planks"},"wake_on":["directly_addressed","unexpected_damage","goal_completed","preconditi
+- 17:51 act: {"actions":[{"do":"place","block":"dark_oak_planks","at":"feet"}],"say":"Eowyn, dusk. The shelter build stopped at 9 blocks; the walls are blocked by logs and planks. I'm mostly enclosed now and will 
+- 17:51 say: {"text":"Eowyn, still in the dark oak wood, health 20, hunger 17, no food known. Holding here till first light with 23 planks. Anyone with food nearby, call out."}
+- 17:55 say: {"text":"Legolas, I'm at the dark oak logs, about 6 blocks south of the big trees, on grass. Stay still; I'm holding here too."}
+- 17:59 act: {"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":3,"leg_blocks":20,"avoid_water":true},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_fa
+- 17:59 act: {"actions":[{"do":"goto","target":{"x":-955,"y":71,"z":-3122}}],"say":"Creeper to the north. Backing south, away from it."}
+- 18:00 say: {"text":"Eowyn here, I died out in the wood and woke at the tables with nothing. Clark, Shackle, anyone with a spare sword or planks, I need help. I'm staying with the group."}
+- 18:00 say: {"text":"Thank you Mulan, I have your 4 planks. Trini, I'll join the chicken trip in sight with you. I have no weapon, so I'll stay behind the swords."}
+- 18:00 act: {"intent":{"goal":"follow_trini_for_food","program":"follow","arguments":{"target":"ag_trini_01"},"wake_on":["directly_addressed","unexpected_damage","precondition_failed"],"limits":{"max_world_ticks"
+- 18:00 say: {"text":"Mulan, thank you for the planks. Do you know where the chicken party is? I'll stay close to you and help carry whatever we find."}
+- 18:03 say: {"text":"Eowyn here, holding in sight with 4 planks and no food. Trini, call me when your route is checked and I'll walk behind the swords."}
+- 18:08 say: {"text":"Ellie, I have 4 dark oak planks for the wall at the table. Stand where I can see you and I'll hand them over."}
+- 18:12 say: {"text":"Eowyn at dusk, holding with Mulan in reach. I have 4 planks for the wall; Ellie or Mulan, call me into sight and I'll hand them over."}
+- 18:20 say: {"text":"Eowyn at dawn, health 20, hunger 20, no food. Cleopatra, I'm at x -938 z -3059 in Mulan's reach; walk into my sight and I'll take the 2 planks. Trini, call me when the route is checked."}
