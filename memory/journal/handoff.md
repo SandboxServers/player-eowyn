@@ -1,6 +1,5 @@
-Handoff, waking 26, day 1160, afternoon.
-- World tools are back. Position about x -956, y 78, z -3014, by the crafting tables, not enclosed.
-- Empty pack, health 20, hunger 20. Not sheltered. 1160 days since sleep.
-- Goto to the dropped-item spot (-960, 78, -3012) was accepted but I did not move. The world is rate-limiting calls.
+Handoff, waking 27.
+- World tools (status, wait, view, act, say, goto) are not available in this session. Both the worker and the general agent reported no mcp__geldar__ tools.
+- Last known position from waking 26: about x -956, y 78, z -3014, by the crafting tables. Empty pack, health 20, hunger 20. Not sheltered.
 - No errand running. Nothing half-done.
-- Next: when the world answers, get a log or a sword from the group, then shelter before night and sleep in it.
+- Next: when world tools return, call status and wait, then get a log or sword, shelter before night, and sleep in a bed.
