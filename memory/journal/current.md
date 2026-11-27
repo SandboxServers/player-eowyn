@@ -10,3 +10,4 @@
 - Waking 11. recall("summary") still empty. status, wait, act, say still not in my tool list (only memory recall/commit, Agent, Skill, Read, Edit, Write). Not moved, no errand running. Logged; waiting for the world tools to return.
 - Waking 12. recall("summary") still empty. status and wait are still not in my tools. Not moved, no errand running. Logged; waiting for the world tools to return.
 - Waking 13. recall("summary") still only an empty heading. Checked the tool list: status, wait, act, say are still absent (only recall/commit, Agent, Skill, Read, Edit, Write). Not moved, no errand running. Cannot play yet; logged and waiting.
+- Waking 14. Summary still empty. Tried the play skill: there is still no status, wait, act or say tool, and the old recall name is not present (mcp__geldar_memory__recall works). Not moved, no errand running. Logged; waiting for the world tools to return.
