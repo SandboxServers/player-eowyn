@@ -20,3 +20,5 @@
 - 16:16 act: {"say":"Night is falling and I carry nothing. I will wait here near the crafting table until morning.","intent":{"goal":"wait_for_morning","program":"rest","arguments":{},"wake_on":["directly_addresse
 - Waking 25. Still no status, wait, act or say tools; the worker helper was refused again for zero tools. Not moved, no errand running. Logged; waiting for the world tools to return.
 - Waking 24. Still no status, wait, act or say in my tools (only memory recall/commit, Agent, Skill, Read, Edit, Write). The worker helper again has no tools. Not moved, no errand running. Logged; waiting for the world tools to return.
+- 16:26 act: {"say":"Eowyn, awake at midday, empty-handed. I'll collect my dropped things to the south-west, in sight of the group.","intent":{"goal":"collect_dropped_items","program":"travel","arguments":{"target
+- 16:27 act: {"actions":[{"do":"goto","target":{"x":-960,"y":78,"z":-3012}}],"say":"Going to my dropped things to the south-west, in sight of the group."}

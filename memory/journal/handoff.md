@@ -1,7 +1,6 @@
-Handoff, waking 25.
-
-Still cannot reach the world. The world tools (status, wait, act, say, look, view, see) are not in my tool list, and the worker helper is refused with zero tools because its mcp__geldar__* tools resolve to nothing. So no errand can run.
-
-Last known state: beside the crafting table with the group, night before, not enclosed, carrying nothing. Dropped items south-west of the tables near x -960, y 78, z -3012 (not yet collected).
-
-Next step: when the world tools return, call status first, then wait. If they stay absent, log the waking and wait again. Do not move alone in the dark.
+Handoff, waking 26, day 1160, afternoon.
+- World tools are back. Position about x -956, y 78, z -3014, by the crafting tables, not enclosed.
+- Empty pack, health 20, hunger 20. Not sheltered. 1160 days since sleep.
+- Goto to the dropped-item spot (-960, 78, -3012) was accepted but I did not move. The world is rate-limiting calls.
+- No errand running. Nothing half-done.
+- Next: when the world answers, get a log or a sword from the group, then shelter before night and sleep in it.
