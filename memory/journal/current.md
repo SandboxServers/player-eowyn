@@ -6,3 +6,4 @@
 - Waking 6. recall("summary") is still only an empty heading. status, wait, act and say are still not in my tool list. I have not moved and no errand is running. Logging this and waiting for the next waking.
 - Waking 8. recall("summary") still only an empty heading. Checked the tool list again: status, wait, act, say are still absent. Not moved, no errand running. Cannot play until the world tools return; waiting.
 - Waking 9. recall("summary") still empty. status, wait, act, say still not in my tool list (only memory recall/commit, Agent, Skill, Read, Edit, Write). Not moved, no errand running. Logged; waiting for the world tools to return.
+- Waking 10. recall("summary") still only an empty heading. status, wait, act, say still absent from my tools. Not moved, no errand running. Cannot play yet; logged and waiting.
