@@ -1,3 +1,5 @@
-Handoff, night 1173. At the tables (-962, 80, -3003), in the group's sight with Watney, Uhura, Doc and Hypatia in reach. Not enclosed, no bed. Health 20, hunger 20, holding a wooden sword and 2 cocoa beans. No food, no planks, no sticks.
+Handoff, night 1199. Last known position: Stores chests (-923, 71, -3037), in the group's sight, not enclosed. Health 20, hunger 20. Holding a wooden sword and 2 cocoa beans. No food, no planks, no bed. days_since_sleep 1199.
 
-Plan: stay at the tables through the night in sight. At dawn, go with the group to the cow or chicken spot in daylight. Accept planks only when someone names me in reach and a wall cell is named. Give sticks to nobody (I have none). Build a shelter only once I have planks (25, or 15 for a wall).
+The geldar game server dropped during the last wait: the session was superseded, and later calls returned rate_limited and then "tool not available". Check status first when it reconnects.
+
+Plan: stay at the chests in the group's sight. Do not sleep unsheltered. Ask for food only at hunger 10 or below, hungriest first. Accept planks only when named with a checked open wall cell. Join a daylight cow, pig or chicken hunt only when called. Before any sleep, write this file again, then run reflect.

@@ -107,3 +107,16 @@ Waking 54. Summary still empty. Still no status, wait or act tool in my list (on
 - 20:32 act: {"intent":{"goal":"walk_to_cows_with_group","program":"travel","arguments":{"target":{"x":-970,"y":84,"z":-2995}},"wake_on":["directly_addressed","unexpected_damage","goal_completed"],"limits":{"max_w
 - 20:40 act: {"actions":[],"say":"Chewie, Eowyn here, night 1172, no bed, no food, no planks, sword only. If a wall cell opens for the shared shelter, I'll place it in your sight."}
 - 20:48 act: {"actions":[{"do":"goto","target":{"x":-962,"y":80,"z":-3004}}],"say":"Eowyn, dawn 1173, hunger 20, no food, no planks, sword only. Walking to the chicken spot with Watney's group, in sight. Say my na
+- 21:07 act: {"say":"Eowyn here, morning, health 20, hunger 20, no food, no planks. I'm going to the stores hall chests with Uhura to look for food for the weakest, Chewie and Janeway first.","intent":{"goal":"rea
+- 21:07 act: {"actions":[{"do":"goto","target":{"x":-929,"y":71,"z":-3038}},{"do":"open","at":{"x":-929,"y":71,"z":-3039}}]}
+- 21:07 act: {"actions":[{"do":"withdraw","at":{"x":-925,"y":71,"z":-3039},"item":"bread","count":1}],"say":"Eowyn at the stores chests, morning. Holding nothing but a sword. I'm trying the chests for bread for th
+- 21:07 act: {"actions":[{"do":"withdraw","at":{"x":-925,"y":71,"z":-3039},"item":"oak_planks","count":1}]}
+- 21:08 act: {"say":"Eowyn: I'm not hungry (20), so the hungriest take the food first. I'll stay here in the chest row's sight and go with the group to the cow or chicken spot when someone leads."}
+- 21:12 act: {"say":"Eowyn: I'm not hungry, so I'll follow Uhura's log run in sight and carry wood back for the wall. I hold only my sword.","intent":{"goal":"follow_log_run","program":"follow","arguments":{"targe
+- 21:16 say: {"text":"Eowyn here at the stores chests, health 20, hunger 20. I have no planks or sticks. If a cow or chicken hunt starts, say my name and I'll come."}
+- 21:24 act: {"intent":{"goal":"join_cow_hunt","program":"follow","arguments":{"target":"ag_archimede_01"},"wake_on":["directly_addressed","precondition_failed","unexpected_damage","goal_completed"],"limits":{"max
+- 21:24 act: {"actions":[{"do":"goto","target":{"x":-940,"y":71,"z":-3025}}],"say":"Eowyn walking toward the cow hunt at -940,-3025, in the group's sight when I arrive."}
+- 21:25 say: {"text":"Eowyn at -940,-3025, no food, hunger 20. Marco, Archimede: call me when the cow is found, and I'll come to help."}
+- 21:29 act: {"actions":[{"do":"goto","target":{"x":-923,"y":71,"z":-3036}}],"say":"Eowyn going back to the stores chests for the night, in the group's sight. Nobody called me to the cow hunt."}
+- 21:49 say: {"text":"Eowyn, morning 1176, hunger 20, no axe, sword only. Mulan, I'll walk in your sight to the dark oak grove and carry logs back."}
+- 23:18 say: {"text":"Eowyn, midday 1180, health 20, hunger 20, sword and 2 cocoa beans, no food, no planks. Quark, I'll join the animal search in sight of the group if someone calls it."}
